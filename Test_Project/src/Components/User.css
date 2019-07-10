@@ -1,0 +1,68 @@
+/*****/
+*{margin: 0px;padding: 0px;background-origin: padding-box;}
+#customers {
+  box-shadow: 5px 0px 6px 0px #888888;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  #customers td, #customers th {
+    border: 2px solid #ddd;
+    padding: 6px;
+    margin-left: 6px;
+  }
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  #customers tr:hover {background-color: rgb(182, 214, 230);}
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(96, 142, 165);
+    color: white;
+  }
+  /**Pagination**/
+  .center {
+    text-align: center;
+  }
+  
+.pagination {
+  /* display: inline-block; */
+  box-shadow: 5px 0px 6px 0px #888888;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+.pagination a.active {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+.pagination a:hover:not(.active) {background-color: rgb(96, 142, 165);color: white;}
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.pagination a:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.btnNext{
+    background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+}
+.txtb{
+  width: 20%;
+  border: none;
+  border-bottom:2px solid rgb(126, 123, 123);
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-right: 100%;
+  margin-bottom: 20px;
+  color: rgb(96, 142, 165);
+
+}

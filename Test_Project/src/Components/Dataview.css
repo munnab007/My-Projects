@@ -1,0 +1,28 @@
+/* Table structure with ul and li (responsive) */
+*{margin: 0px; padding: 0px; background-origin: padding-box;}
+
+.headingsmall
+{
+  color: #3a4355;
+font-weight:bold;
+ 
+-webkit-text-shadow: 0px 0px 1px #119af2;
+-moz-text-shadow: 0px 0px 1px #119af2;
+-o-text-shadow: 0px 0px 1px #119af2;
+font: 400 24px/1.4 'Cutive', Helvetica, Verdana, Arial, sans-serif;
+text-shadow: 0px 0px 1px #119af2;
+text-transform:uppercase;
+
+}
+
+.Ulsmall i{
+    float: right;
+    margin-left: 20px;
+    cursor: pointer;
+    padding-right: 10px;
+    color: rgb(180, 173, 173);
+}
+.Ulsmall .lstbd{
+    border-bottom: 1px solid #000;
+    padding-left: 10px;
+}
